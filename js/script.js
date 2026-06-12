@@ -10,7 +10,7 @@ const baseDatos = {
                 legal: "Ley Orgánica de la Administración Pública Federal.",
                 impacto: "Diseña la directriz económica del país y coordina a los demás órganos reguladores.",
                 enlace: "https://www.gob.mx/shcp",
-                rutaImg: "../img/shcp.jpg"
+                rutaImg: "./img/shcp.jpg"
             },
             banxico: {
                 nombre: "Banco de México (Banxico)",
