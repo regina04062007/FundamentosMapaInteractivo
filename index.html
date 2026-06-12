@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mapa.css">
+    <script src="js/script.js" defer></script>
+    <title>Mapa Interactivo - Sistema Financiero Mexicano</title>
+</head>
+<body>
+<div class="mapaCont">
+    <h1>Mapa Interactivo del Sistema Financiero Mexicano</h1>
+    
+
+    <div class="secAutoridades">
+        <div class="tarjetaSector sAutoridades" onclick="cargarSector('autoridades')">
+            1. Autoridades Reguladoras y Supervisoras
+        </div>
+    </div>
+
+    <div class="gridSectores">
+        <div class="tarjetaSector sBancaMultiple" onclick="cargarSector('bancaMultiple')">2. Banca Múltiple</div>
+        <div class="tarjetaSector sBancaDesarrollo" onclick="cargarSector('bancaDesarrollo')">3. Banca de Desarrollo</div>
+        <div class="tarjetaSector sBursatil" onclick="cargarSector('bursatil')">4. Sector Bursátil</div>
+        <div class="tarjetaSector sSeguros" onclick="cargarSector('seguros')">5. Seguros y Fianzas</div>
+        <div class="tarjetaSector sAhorroPopular" onclick="cargarSector('ahorroPopular')">6. Ahorro y Crédito Popular</div>
+        <div class="tarjetaSector sAuxiliares" onclick="cargarSector('auxiliares')">7. Auxiliares de Crédito</div>
+        <div class="tarjetaSector sDerivados" onclick="cargarSector('derivados')">8. Sector de Derivados</div>
+        <div class="tarjetaSector sAfores" onclick="cargarSector('afores')">9. AFORES</div>
+        <div class="tarjetaSector sFondos" onclick="cargarSector('fondos')">10. Fondos Públicos</div>
+    </div>
+
+
+    <div class="modalInfo" id="modalContenedor" style="display: none;">
+        <span class="btnCerrar" onclick="cerrarModal()">&times;</span>
+        
+        <div class="modalColTexto">
+            <h2 id="mTitulo">Selecciona una categoría</h2>
+            <p id="mDescripcionSector" class="descSector"></p>
+            
+            <div class="modalSec">
+                <span class="etiquetaSec3">Selecciona una Institución Específica:</span>
+                <div id="mSubMenuInstituciones" class="subMenuInst"></div>
+            </div>
+
+            <hr>
+
+            <div id="mDetalleEspecifico" style="display:none;">
+                <div class="modalSec">
+                    <span class="etiquetaSec">Funciones Principales</span>
+                    <ul id="mFunciones"></ul>
+                </div>
+
+                <div class="modalSec">
+                    <span class="etiquetaSec">Actividades Relevantes Recientes (2020-2025)</span>
+                    <p id="mActividades"></p>
+                </div>
+
+                <div class="modalSec">
+                    <span class="etiquetaSec">Marco Legal de Referencia</span>
+                    <p id="mMarcoLegal"></p>
+                </div>
+
+                <div class="modalSec">
+                    <span class="etiquetaSec">Impacto en el Sistema Económico</span>
+                    <p id="mImpacto"></p>
+                </div>
+
+                <a href="#" id="mEnlace" target="_blank" class="btnEnlace">Ir al enlace oficial</a>
+            </div>
+        </div>
+
+        <div class="modalColImg" id="mColImg" style="display:none;">
+            <span class="etiquetaSec2">Logotipo Oficial</span>
+            <img id="mImagen" src="" alt="Logotipo Institucional">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
