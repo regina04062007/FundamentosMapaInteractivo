@@ -10,7 +10,7 @@ const baseDatos = {
                 legal: "Ley Orgánica de la Administración Pública Federal.",
                 impacto: "Diseña la directriz económica del país y coordina a los demás órganos reguladores.",
                 enlace: "https://www.gob.mx/shcp",
-                rutaImg: "./img/shcp.jpg"
+                rutaImg: "/img/shcp.jpg"
             },
             banxico: {
                 nombre: "Banco de México (Banxico)",
@@ -19,7 +19,7 @@ const baseDatos = {
                 legal: "Ley del Banco de México.",
                 impacto: "Estabilidad de precios macroeconómica y control del poder adquisitivo.",
                 enlace: "https://www.banxico.org.mx",
-                rutaImg: "../img/banxico.webp"
+                rutaImg: "./img/banxico.webp"
             },
             cnbv: {
                 nombre: "CNBV (Comisión Nacional Bancaria y de Valores)",
