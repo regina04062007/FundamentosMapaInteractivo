@@ -10,7 +10,7 @@ const baseDatos = {
                 legal: "Ley Orgánica de la Administración Pública Federal.",
                 impacto: "Diseña la directriz económica del país y coordina a los demás órganos reguladores.",
                 enlace: "https://www.gob.mx/shcp",
-                rutaImg: "./img/shcp.jpg"
+                rutaImg: "img/shcp.jpg"
             },
             banxico: {
                 nombre: "Banco de México (Banxico)",
@@ -37,7 +37,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Seguros y de Fianzas.",
                 impacto: "Asegura que las compañías tengan el dinero suficiente para pagar siniestros catastróficos.",
                 enlace: "https://www.gob.mx/cnsf",
-                rutaImg: "./img//cnsf.webp"
+                rutaImg: "./img/cnsf.webp"
             },
             consar: {
                 nombre: "CONSAR (Comisión Nacional del Sistema de Ahorro para el Retiro)",
