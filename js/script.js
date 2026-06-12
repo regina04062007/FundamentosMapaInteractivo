@@ -10,7 +10,7 @@ const baseDatos = {
                 legal: "Ley Orgánica de la Administración Pública Federal.",
                 impacto: "Diseña la directriz económica del país y coordina a los demás órganos reguladores.",
                 enlace: "https://www.gob.mx/shcp",
-                rutaImg: "/img/shcp.jpg"
+                rutaImg: "./img/shcp.jpg"
             },
             banxico: {
                 nombre: "Banco de México (Banxico)",
@@ -28,7 +28,7 @@ const baseDatos = {
                 legal: "Ley de la Comisión Nacional Bancaria y de Valores.",
                 impacto: "Mantiene la solvencia y confianza en los sectores de ahorro, crédito y acciones.",
                 enlace: "https://www.gob.mx/cnbv",
-                rutaImg: "../img/cnbv.jpg"
+                rutaImg: "./img/cnbv.jpg"
             },
             cnsf: {
                 nombre: "CNSF (Comisión Nacional de Seguros y Fianzas)",
@@ -37,7 +37,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Seguros y de Fianzas.",
                 impacto: "Asegura que las compañías tengan el dinero suficiente para pagar siniestros catastróficos.",
                 enlace: "https://www.gob.mx/cnsf",
-                rutaImg: "../img//cnsf.webp"
+                rutaImg: "./img//cnsf.webp"
             },
             consar: {
                 nombre: "CONSAR (Comisión Nacional del Sistema de Ahorro para el Retiro)",
@@ -46,7 +46,7 @@ const baseDatos = {
                 legal: "Ley de los Sistemas de Ahorro para el Retiro.",
                 impacto: "Protege el patrimonio del retiro de millones de trabajadores mexicanos.",
                 enlace: "https://www.gob.mx/consar",
-                rutaImg: "../img/consar.jpg"
+                rutaImg: "./img/consar.jpg"
             },
             condusef: {
                 nombre: "CONDUSEF (Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros)",
@@ -55,7 +55,7 @@ const baseDatos = {
                 legal: "Ley de Protección y Defensa al Usuario de Servicios Financieros.",
                 impacto: "Equilibra la relación de poder entre los grandes bancos y el consumidor final.",
                 enlace: "https://www.condusef.gob.mx",
-                rutaImg: "../img/condusef.jpg"
+                rutaImg: "./img/condusef.jpg"
             }
         }
     },
@@ -70,7 +70,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Crédito.",
                 impacto: "Es el banco más grande del país; dicta tendencias operativas y flujos de nóminas.",
                 enlace: "https://www.bbva.mx",
-                rutaImg: "../img/bbva.jpg"
+                rutaImg: "./img/bbva.jpg"
             },
             banamex: {
                 nombre: "Citibanamex",
@@ -79,7 +79,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Crédito.",
                 impacto: "Pilar histórico del sistema de pagos y custodia de inversiones.",
                 enlace: "https://www.citibanamex.com",
-                rutaImg: "../img/banamex.png"
+                rutaImg: "./img/banamex.png"
             },
             santander: {
                 nombre: "Santander México",
@@ -88,7 +88,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Crédito.",
                 impacto: "Fuerte conector de financiamiento para medianas empresas.",
                 enlace: "https://www.santander.com.mx",
-                rutaImg: "../img/santander.jpg"
+                rutaImg: "./img/santander.jpg"
             },
             banorte: {
                 nombre: "Banorte",
@@ -97,7 +97,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Crédito.",
                 impacto: "El banco de capital mexicano más grande, clave para el desarrollo regional.",
                 enlace: "https://www.banorte.com",
-                rutaImg: "../img/banorte.jpg"
+                rutaImg: "./img/banorte.jpg"
             }
         }
     },
@@ -112,7 +112,7 @@ const baseDatos = {
                 legal: "Ley Orgánica de Bancomext.",
                 impacto: "Impulsa la balanza comercial y la captación de divisas.",
                 enlace: "https://www.bancomext.com",
-                rutaImg: "../img/bancomext.jpg"
+                rutaImg: "./img/bancomext.jpg"
             },
             nafin: {
                 nombre: "Nacional Financiera (Nafin)",
@@ -121,7 +121,7 @@ const baseDatos = {
                 legal: "Ley Orgánica de Nacional Financiera.",
                 impacto: "Sostiene el empleo nacional mediante la supervivencia de pequeñas empresas.",
                 enlace: "https://www.nafin.com",
-                rutaImg: "../img/nafin.jpg"
+                rutaImg: "./img/nafin.jpg"
             },
             banobras: {
                 nombre: "Banobras",
@@ -130,7 +130,7 @@ const baseDatos = {
                 legal: "Ley Orgánica de Banobras.",
                 impacto: "Detona la obra pública de gran escala indispensable para el crecimiento logístico.",
                 enlace: "https://www.gob.mx/banobras",
-                rutaImg: "../img/banobras.jpg"
+                rutaImg: "./img/banobras.jpg"
             },
             fira: {
                 nombre: "FIRA (Fideicomisos Instituidos en Relación con la Agricultura)",
@@ -139,7 +139,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Crédito / Reglas de Banxico.",
                 impacto: "Garantiza la seguridad alimentaria y el desarrollo social rural.",
                 enlace: "https://www.fira.gob.mx",
-                rutaImg: "../img/fira.jpg"
+                rutaImg: "./img/fira.jpg"
             }
         }
     },
@@ -154,7 +154,7 @@ const baseDatos = {
                 legal: "Ley del Mercado de Valores.",
                 impacto: "Canaliza el gran ahorro institucional hacia proyectos productivos corporativos.",
                 enlace: "https://www.bmv.com.mx",
-                rutaImg: "../img/bmv.webp"
+                rutaImg: "./img/bmv.webp"
             },
             biva: {
                 nombre: "Bolsa Institucional de Valores (BIVA)",
@@ -163,7 +163,7 @@ const baseDatos = {
                 legal: "Ley del Mercado de Valores.",
                 impacto: "Rompió el monopolio bursátil, reduciendo costos de financiamiento para corporativos.",
                 enlace: "https://www.biva.mx",
-                rutaImg: "../img/biva.webp"
+                rutaImg: "./img/biva.webp"
             },
             vector: {
                 nombre: "Vector Casa de Bolsa",
@@ -172,7 +172,7 @@ const baseDatos = {
                 legal: "Ley del Mercado de Valores.",
                 impacto: "Vincula directamente los ahorros patrimoniales de las personas con los mercados globales.",
                 enlace: "https://www.vector.com.mx",
-                rutaImg: "../img/vector.png"
+                rutaImg: "./img/vector.png"
             }
         }
     },
@@ -187,7 +187,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Seguros y de Fianzas.",
                 impacto: "Garantiza la continuidad familiar y empresarial ante pérdidas imprevistas.",
                 enlace: "https://www.gnp.com.mx",
-                rutaImg: "../img/gnp.png"
+                rutaImg: "./img/gnp.png"
             },
             axa: {
                 nombre: "AXA Seguros",
@@ -196,7 +196,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Seguros y de Fianzas.",
                 impacto: "Aporta resiliencia financiera internacional al mercado local.",
                 enlace: "https://axa.mx",
-                rutaImg: "../img/axa.jpg"
+                rutaImg: "./img/axa.jpg"
             },
             metlife: {
                 nombre: "MetLife México",
@@ -205,7 +205,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Seguros y de Fianzas.",
                 impacto: "Sostiene el ahorro a largo plazo de millones de familias.",
                 enlace: "https://www.metlife.com.mx",
-                rutaImg: "../img/metlife.jpg"
+                rutaImg: "./img/metlife.jpg"
             },
             qualitas: {
                 nombre: "Quálitas",
@@ -214,7 +214,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Seguros y de Fianzas.",
                 impacto: "Mitiga el impacto económico de accidentes en las redes de distribución del país.",
                 enlace: "https://www.qualitas.com.mx",
-                rutaImg: "../img/qualitas.webp"
+                rutaImg: "./img/qualitas.webp"
             }
         }
     },
@@ -229,7 +229,7 @@ const baseDatos = {
                 legal: "Ley de Ahorro y Crédito Popular / Ley de SOCAPs.",
                 impacto: "Es la cooperativa más grande, vital para las economías locales del Bajío y Occidente.",
                 enlace: "https://www.cpm.coop",
-                rutaImg: "../img/cajapopular.jpg"
+                rutaImg: "./img/cajapopular.jpg"
             },
             compartamos: {
                 nombre: "Financiera Compartamos",
@@ -238,7 +238,7 @@ const baseDatos = {
                 legal: "Ley de Ahorro y Crédito Popular.",
                 impacto: "Detona el autoempleo en la base de la pirámide socioeconómica.",
                 enlace: "https://www.compartamos.com.mx",
-                rutaImg: "../img/compartamos.png"
+                rutaImg: "./img/compartamos.png"
             }
         }
     },
@@ -253,7 +253,7 @@ const baseDatos = {
                 legal: "Ley General de Organizaciones y Actividades Auxiliares del Crédito.",
                 impacto: "Histórico motor de financiamiento alternativo para la adquisición de maquinaria industrial.",
                 enlace: "https://www.unifin.com.mx",
-                rutaImg: "../img/unifin.png"
+                rutaImg: "./img/unifin.png"
             },
             creditoReal: {
                 nombre: "Crédito Real (Requerido Anexo A)",
@@ -262,7 +262,7 @@ const baseDatos = {
                 legal: "Ley General de Organizaciones y Actividades Auxiliares del Crédito.",
                 impacto: "Sirvió de referencia regulatoria sobre el riesgo sistémico de las SOFOMEs no reguladas.",
                 enlace: "https://www.creditoreal.com.mx",
-                rutaImg: "../img/creditoreal.webp"
+                rutaImg: "./img/creditoreal.webp"
             },
             hdiSeguros: {
                 nombre: "HDI Seguros / Afianzadora (Requerido Anexo A)",
@@ -271,7 +271,7 @@ const baseDatos = {
                 legal: "Ley de Instituciones de Seguros y de Fianzas.",
                 impacto: "Garantiza que los contratos entre particulares o con el gobierno se ejecuten sin pérdidas económicas.",
                 enlace: "https://www.hdi.com.mx",
-                rutaImg: "../img/hdi.jpg"
+                rutaImg: "./img/hdi.jpg"
             }
         }
     },
@@ -286,7 +286,7 @@ const baseDatos = {
                 legal: "Reglas emitidas conjuntamente por SHCP, Banxico y CNBV.",
                 impacto: "Permite a las grandes industrias asegurar precios de insumos o el valor del dólar a futuro.",
                 enlace: "http://www.mexder.com.mx",
-                rutaImg: "../img/mexder.png"
+                rutaImg: "./img/mexder.png"
             },
             asigna: {
                 nombre: "Asigna (Cámara de Compensación)",
@@ -295,7 +295,7 @@ const baseDatos = {
                 legal: "Reglas del Sector de Derivados nacionales.",
                 impacto: "Otorga certeza absoluta; si un comprador quiebra, Asigna responde por el dinero.",
                 enlace: "http://www.asigna.com.mx",
-                rutaImg: "../img/asigna.jpg"
+                rutaImg: "./img/asigna.jpg"
             }
         }
     },
@@ -310,7 +310,7 @@ const baseDatos = {
                 legal: "Ley de los Sistemas de Ahorro para el Retiro.",
                 impacto: "Pilar de ahorro interno a largo plazo para la economía.",
                 enlace: "https://www.aforesura.com.mx",
-                rutaImg: "../img/sura.jpg"
+                rutaImg: "./img/sura.jpg"
             },
             profuturo: {
                 nombre: "Afore Profuturo",
@@ -319,7 +319,7 @@ const baseDatos = {
                 legal: "Ley de los Sistemas de Ahorro para el Retiro.",
                 impacto: "Directo beneficio sobre la tasa de reemplazo y pensiones dignas futuras.",
                 enlace: "https://www.profuturo.mx",
-                rutaImg: "../img/profuturo.png"
+                rutaImg: "./img/profuturo.png"
             },
             principal: {
                 nombre: "Afore Principal",
@@ -328,7 +328,7 @@ const baseDatos = {
                 legal: "Ley de los Sistemas de Ahorro para el Retiro.",
                 impacto: "Facilita la inclusión del trabajador al sistema financiero formal.",
                 enlace: "https://www.principal.com.mx",
-                rutaImg: "../img/principal.jpg"
+                rutaImg: "./img/principal.jpg"
             },
             banorteAfore: {
                 nombre: "Afore XXI Banorte",
@@ -337,7 +337,7 @@ const baseDatos = {
                 legal: "Ley de los Sistemas de Ahorro para el Retiro.",
                 impacto: "Es un inversionista institucional gigantesco para el financiamiento corporativo mexicano.",
                 enlace: "https://www.xxi-banorte.com",
-                rutaImg: "../img/xxibanorte.png"
+                rutaImg: "./img/xxibanorte.png"
             }
         }
     },
@@ -352,7 +352,7 @@ const baseDatos = {
                 legal: "Ley del ISSSTE.",
                 impacto: "Estabiliza el bienestar social de la fuerza laboral pública.",
                 enlace: "https://www.gob.mx/fovissste",
-                rutaImg: "../img/fovissste.png"
+                rutaImg: "./img/fovissste.png"
             },
             infonavit: {
                 nombre: "INFONAVIT",
@@ -361,7 +361,7 @@ const baseDatos = {
                 legal: "Ley del INFONAVIT.",
                 impacto: "Es el mayor motor del sector construcción y de la vivienda social en el país.",
                 enlace: "https://portalmx.infonavit.org.mx",
-                rutaImg: "../img/infonavit.jpg"
+                rutaImg: "./img/infonavit.jpg"
             },
             fojal: {
                 nombre: "FOJAL (Fondo Jalisco de Fomento Empresarial - Requerido Anexo A)",
@@ -370,7 +370,7 @@ const baseDatos = {
                 legal: "Ley de Entidades Paraestatales / Decretos Estatales de Fomento.",
                 impacto: "Ejemplo clave de cómo un fondo público descentralizado impulsa la economía interna regional.",
                 enlace: "https://fojal.jalisco.gob.mx",
-                rutaImg: "../img/fojal.png"
+                rutaImg: "./img/fojal.png"
             }
         }
     }
